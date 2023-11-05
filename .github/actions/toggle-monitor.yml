@@ -1,0 +1,16 @@
+name: 'Toggle Monitor'
+description: 'Toggle UptimeRobot monitor on or off'
+inputs:
+  apiKey:
+    description: 'UptimeRobot API Key'
+    required: true
+  monitorID:
+    description: 'Monitor ID to toggle'
+    required: true
+  action:
+    description: 'Action to perform (pause or unpause)'
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
