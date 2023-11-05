@@ -8,7 +8,7 @@ inputs:
     description: 'Monitor ID to toggle'
     required: true
   action:
-    description: 'Action to perform (pause or unpause)'
+    description: 'Action to perform (pause or resume)'
     required: true
 
 runs:
